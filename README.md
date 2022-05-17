@@ -1,2 +1,2 @@
 # ILIASTimeline
-Timeline for ILIAS course and group defaults
+Timeline for ILIAS course and group as defaults
