@@ -1,0 +1,15 @@
+configuration_presets#:#Einstellungsvorlagen
+news_service_in_obj_x#:#Neuigkeiten-Service im Objekt «%s»
+news_will_be_enabled#:#Der Neuigkeiten-Service wird aktiviert.
+news_dashboard#:#Neuigkeiten des Objekts würden auch auf dem Dashboard angezeigt.
+btn_label_save_for_new_objs#:#Einstellungsvorlagen für neue Objekte speichern
+btn_label_migrate_objs#:#Einstellungen einmalig für alle Objekte der gewählten Objekttypen speichern
+modify_settings#:#Einstellungen anpassen
+sure_adopt_preset_x#:#Sind Sie sicher, dass Sie die Einstellungen für alle Objekte (%s) im Magazin übernehmen möchten?
+modify_settings_form_info#:#Mittels nachstehender Aktion können Sie die Einstellungen bestehender Objekte je Objekttyp einmalig anpassen.<br>Das aktiv setzen der Checkbox eines Objekttyps führt zur Aktivierung für diese Objekte. Inaktive Chekboxen führen nicht dazu, dass der Neuigkeiten-Service in den Objekten deaktiviert wird.
+news_setting_timeline#:#Neuigkeiten-Service-Timeline aktivieren
+news_setting_timeline_description#:#Aktivert die Neuigkeiten-Service-Timeline.
+news_setting_timeline_include_automatic_entries#:#Aktiviere die Aufnahme von automatischen Einträgen in die Neuigkeiten-Service-Timeline
+news_setting_timeline_include_automatic_entries_description#:#Datei-Uploads, Forenbeiträge und andere Benachrichtigungen werden in die Timeline aufgenommen.
+enable_timeline_to_crs_and_grp_tree#:#Neuigkeiten-Service-Timeline im sub-tree der ref_id aktivieren.
+enable_timeline_to_crs_and_grp_ageid#:#Neuigkeiten-Service-Timeline aktivieren, die neuer sind als die angegebene ref_id.
