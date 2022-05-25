@@ -1,5 +1,5 @@
 configuration_presets#:#Configuration Presets
-news_service_in_obj_x#:#News Service in Object «%s»
+news_service_in_obj_x#:#News Service in Object »%s«
 news_will_be_enabled#:#The news service will be enabled.
 news_dashboard#:#News would be also displayed on the dashboard.
 btn_label_save_for_new_objs#:#Save Configuration Presets for New Objects

@@ -1,5 +1,5 @@
 configuration_presets#:#Einstellungsvorlagen
-news_service_in_obj_x#:#Neuigkeiten-Service im Objekt «%s»
+news_service_in_obj_x#:#Neuigkeiten-Service im Objekt »%s«
 news_will_be_enabled#:#Der Neuigkeiten-Service wird aktiviert.
 news_dashboard#:#Neuigkeiten des Objekts würden auch auf dem Dashboard angezeigt.
 btn_label_save_for_new_objs#:#Einstellungsvorlagen für neue Objekte speichern
