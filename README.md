@@ -1,4 +1,4 @@
-# NewsSettings
+# NewsSettings (Timeline edition)
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
 "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL"
@@ -7,6 +7,7 @@ in this document are to be interpreted as described in
 
 **Table of Contents**
 
+* [About this plugin](#about-this-plugin)
 * [Requirements](#requirements)
 * [Installation](#installation)
   * [Composer](#composer)
@@ -16,6 +17,16 @@ in this document are to be interpreted as described in
   * [Correlations](#correlations)
   * [Bugs](#bugs)
   * [License](#license)
+
+## About this plugin
+
+This is a fork (with kind permission) of Databay’s original [NewsSettings plugin](https://github.com/DatabayAG/NewsSettings).
+
+The plugin does two things:
+
+1. It can change the default notification settings for new courses and/or groups to always have the *Timeline* activated (while the orignal Plugin activates the *News Block* and can do so for categories, too).
+
+2. The chosen settings can be applied to existing courses and/or groups in specific category trees (via given ref-id).
 
 ## Requirements
 
@@ -49,8 +60,7 @@ None
 
 ## Specifications
 
-An ILIAS plugin that applies defaults to news settings of new objects and provides
-a user interface for news setting migrations.
+An ILIAS plugin that applies defaults to news settings of new objects and provides a user interface for news setting migrations.
 
 ## Other Information
 
