@@ -137,15 +137,15 @@ class ilNewsSettingsApplyConfigGUI extends BaseController
                 INNER JOIN tree ON object_reference.ref_id = tree.child   
                 INNER JOIN object_data ON object_reference.obj_id = object_data.obj_id 
                         AND object_data.type = %s
-                        AND tree.path like '%%.%u.%%'  
+                        AND (tree.path like '%%.%u.%%' OR tree.path like '%u.%%') 
                         AND object_reference.deleted is null
                         AND NOT container_settings.value = 1 
                         AND (container_settings.keyword = 'cont_use_news'
                             OR container_settings.keyword = 'news_timeline'
                             OR container_settings.keyword = 'news_timeline_incl_auto')
                 SET container_settings.value = 1",
-                ['text', 'integer'],
-                [$type, $ref_id]
+                ['text', 'integer', 'integer'],
+                [$type, $ref_id, $ref_id]
             );
         }
          
